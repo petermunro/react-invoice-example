@@ -4,9 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "tachyons": "^4.6.2",
-    "tachyons-cli": "^1.0.10"
+    "react-dom": "^15.4.2"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
@@ -15,9 +13,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "css": "tachyons src/css/app.css > src/index.css --minify",
-    "prestart": "npm run css",
-    "prebuild": "npm run css"
+    "eject": "react-scripts eject"
   }
 }
